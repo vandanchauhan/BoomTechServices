@@ -62,22 +62,23 @@ p {
 }
 
 .colorblack {
-    width: 35%;
+    width: 310px;
     color: #fff;
-    left: 27%;
-    right: 27%;
+    left: 8%;
+    right: 8%;
+    font-size: 20px;
     margin: 5px auto;
     border-radius: 8px;
     background-color: #000;
     opacity: 0.4;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     text-align: center;
     z-index: 20;
 }
 
 .logo {
-    width: 38%;
+    width: 200px;
     margin: auto;
     border-radius: 5px;
 }
