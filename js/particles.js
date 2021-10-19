@@ -23,11 +23,11 @@ var pJS = function(tag_id, params){
         value: 400,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 1800
         }
       },
       color: {
-        value: '#000'
+        value: '#b61924',
       },
       shape: {
         type: 'circle',
