@@ -43,7 +43,7 @@ p {
 
 .test {
     width: 50%;
-    z-index: 20;
+    /*z-index: 20;*/
     margin: auto;
     position: absolute;
     left: 25%;
@@ -77,22 +77,22 @@ p {
 
 .appDetails {
     left: 18%;
-    top: 15%;
+    top: 19%;
 }
 
 .webDetails {
     right: 20.8%;
-    top: 21%;
+    top: 22%;
 }
 
 .smmDetails {
     left: 5%;
-    bottom: 21%;
+    bottom: 24%;
 }
 
 .designDetails {
     right: 19.5%;
-    bottom: 22%;
+    bottom: 25.5%;
 }
 
 .show-content {
