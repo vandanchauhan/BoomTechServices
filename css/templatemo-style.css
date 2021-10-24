@@ -53,7 +53,54 @@ p {
 
 .fontbig {
     font-size: 40px;
-    opacity:  0.2;
+    opacity: 0;
+}
+
+.service-details {
+    font-size: 15px;
+    opacity: 1;
+}
+
+.details-container {
+    text-align: left;
+    position: absolute;
+    width: 22%;
+    background-color: #e2a724;
+    border-radius: 8px;
+    padding: 5px 10px;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.appDetails {
+    left: 15%;
+    top: 13.5%;
+}
+
+.webDetails {
+    right: 20%;
+    top: 20%;
+}
+
+.smmDetails {
+    left: 4%;
+    bottom: 12%;
+}
+
+.designDetails {
+    right: 16%;
+    bottom: 21%;
+}
+
+.show-content {
+    opacity:  1;   
+}
+
+.hide-content {
+    opacity:  0.1;   
 }
 
 .fontsmall {
@@ -66,21 +113,94 @@ p {
     color: #fff;
     left: 8%;
     right: 8%;
-    font-size: 20px;
+    font-size: 16px;
     margin: 5px auto;
     border-radius: 8px;
-    background-color: #000;
-    opacity: 0.4;
+    background-color: #a9a9a945;
     position: absolute;
     bottom: 5%;
     text-align: center;
     z-index: 20;
+    padding: 8px;
+}
+
+.smIcons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+/* Floating animation */
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+    /*margin-left: 30px;
+    margin-top: 5px;*/
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 4px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.floating2 { 
+    animation-name: floating2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+    /*margin-left: 30px;
+    margin-top: 5px;*/
+}
+ 
+@keyframes floating2 {
+    0% { transform: translate(0,  4px); }
+    50%  { transform: translate(0, 0px); }
+    100%   { transform: translate(0, 4px); }   
 }
 
 .logo {
     width: 200px;
     margin: auto;
     border-radius: 5px;
+}
+
+.icon1 {
+    position: absolute;
+    z-index: 21;
+    width: 8%;
+    left: 7%;
+    top: 7%;
+}
+
+.icon2 {
+    position: absolute;
+    z-index: 21;
+    width: 8%;
+    right: 12%;
+    top: 13%;
+}
+
+.icon3 {
+    position: absolute;
+    z-index: 21;
+    width: 8%;
+    left: 26%;
+    bottom: 32%;
+}
+
+.icon4 {
+    position: absolute;
+    z-index: 21;
+    width: 8%;
+    right: 8%;
+    bottom: 15%;
 }
 
 #particles-js {
