@@ -76,23 +76,23 @@ p {
 }
 
 .appDetails {
-    left: 15%;
-    top: 13.5%;
+    left: 16%;
+    top: 15%;
 }
 
 .webDetails {
-    right: 20%;
-    top: 20%;
+    right: 20.8%;
+    top: 21%;
 }
 
 .smmDetails {
-    left: 4%;
-    bottom: 12%;
+    left: 5%;
+    bottom: 21%;
 }
 
 .designDetails {
-    right: 16%;
-    bottom: 21%;
+    right: 17.2%;
+    bottom: 22%;
 }
 
 .show-content {
@@ -174,33 +174,33 @@ p {
 .icon1 {
     position: absolute;
     z-index: 21;
-    width: 8%;
     left: 7%;
     top: 7%;
+    width: 10%;
 }
 
 .icon2 {
     position: absolute;
     z-index: 21;
-    width: 8%;
     right: 12%;
     top: 13%;
+    width: 10%;
 }
 
 .icon3 {
     position: absolute;
     z-index: 21;
-    width: 8%;
     left: 26%;
     bottom: 32%;
+    width: 10%;
 }
 
 .icon4 {
     position: absolute;
     z-index: 21;
-    width: 8%;
     right: 8%;
     bottom: 15%;
+    width: 10%;
 }
 
 #particles-js {
