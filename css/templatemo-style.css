@@ -47,7 +47,7 @@ p {
     margin: auto;
     position: absolute;
     left: 25%;
-    top: 5%;
+    top: 1.5%;
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 .appDetails {
-    left: 16%;
+    left: 18%;
     top: 15%;
 }
 
@@ -91,7 +91,7 @@ p {
 }
 
 .designDetails {
-    right: 17.2%;
+    right: 19.5%;
     bottom: 22%;
 }
 
@@ -176,7 +176,7 @@ p {
     z-index: 21;
     left: 7%;
     top: 7%;
-    width: 10%;
+    width: 12%;
 }
 
 .icon2 {
@@ -192,7 +192,7 @@ p {
     z-index: 21;
     left: 26%;
     bottom: 32%;
-    width: 10%;
+    width: 11%;
 }
 
 .icon4 {
@@ -200,7 +200,7 @@ p {
     z-index: 21;
     right: 8%;
     bottom: 15%;
-    width: 10%;
+    width: 12.5%;
 }
 
 #particles-js {
