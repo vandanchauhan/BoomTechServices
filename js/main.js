@@ -5,7 +5,7 @@ $(document).ready(function () {
       $('.appDetails').addClass('show-content');
       setTimeout(function(){
       	    $('.appDetails').removeClass('show-content');
-      }, 7000);
+      }, 7500);
   });
 
   	  $('.icon2').hover(function (e) {
@@ -14,7 +14,7 @@ $(document).ready(function () {
       $('.webDetails').addClass('show-content');
       setTimeout(function(){
       	    $('.webDetails').removeClass('show-content');
-      }, 7000);
+      }, 7500);
   });
 
 
@@ -24,7 +24,7 @@ $(document).ready(function () {
       $('.smmDetails').addClass('show-content');
       setTimeout(function(){
       	    $('.smmDetails').removeClass('show-content');
-      }, 7000);
+      }, 7500);
   });
 
   $('.icon4').hover(function (e) {
@@ -33,7 +33,7 @@ $(document).ready(function () {
       $('.designDetails').addClass('show-content');
       setTimeout(function(){
       	    $('.designDetails').removeClass('show-content');
-      }, 7000);
+      }, 7500);
   });
 
 });
