@@ -69,30 +69,30 @@ p {
     border-radius: 8px;
     padding: 8px 15px;
     opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
 
 .appDetails {
-    left: 18%;
-    top: 19%;
+    left: 15.7%;
+    top: 15.5%;
 }
 
 .webDetails {
-    right: 20.8%;
-    top: 22%;
+    right: 19.1%;
+    top: 20.5%;
 }
 
 .smmDetails {
-    left: 5%;
-    bottom: 24%;
+    left: 7%;
+    bottom: 20.5%;
 }
 
 .designDetails {
-    right: 19.5%;
-    bottom: 25.5%;
+    right: 17%;
+    bottom: 23%;
 }
 
 .show-content {
@@ -118,10 +118,10 @@ p {
     border-radius: 8px;
     background-color: #75757545;
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     text-align: center;
     z-index: 20;
-    padding: 8px;
+    padding: 4px;
 }
 
 .smIcons {
@@ -171,12 +171,46 @@ p {
     border-radius: 5px;
 }
 
+
+/* Icons scale down animation */
+.scaleDown { 
+    animation-name: scaledown;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+}
+ 
+@keyframes scaledown {
+   0% { transform: scale(1); }
+   100% { transform: scale(0.5); }
+}
+
+.scaleUp { 
+    animation-name: scaleup;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+}
+ 
+@keyframes scaleup {
+   0% { transform: scale(0.5); }
+   100% { transform: scale(1); }
+}
+
+.iconwidth {
+    transform: scale(0.5);
+}
+
 .icon1 {
     position: absolute;
     z-index: 21;
     left: 7%;
     top: 7%;
     width: 12%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
 
 .icon2 {
@@ -185,6 +219,10 @@ p {
     right: 12%;
     top: 13%;
     width: 10%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
 
 .icon3 {
@@ -193,6 +231,10 @@ p {
     left: 26%;
     bottom: 32%;
     width: 11%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
 
 .icon4 {
@@ -201,6 +243,10 @@ p {
     right: 8%;
     bottom: 15%;
     width: 12.5%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
 
 #particles-js {
@@ -401,6 +447,76 @@ p {
 
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
+
+    .icon1 {
+        position: absolute;
+        z-index: 21;
+        left: 5%;
+        top: 9%;
+        width: 25%;
+    }
+
+    .icon2 {
+        position: absolute;
+        z-index: 21;
+        right: 6%;
+        top: 18%;
+        width: 22%;
+    }
+
+    .icon3 {
+        position: absolute;
+        z-index: 21;
+        left: 40%;
+        bottom: 35%;
+        width: 21%;
+    }
+
+    .icon4 {
+        position: absolute;
+        z-index: 21;
+        right: 2%;
+        bottom: 16%;
+        width: 22%;
+    }
+
+    .appDetails {
+        left: 18%;
+        top: 22%;
+    }
+
+    .webDetails {
+        right: 11%;
+        top: 27.5%;
+    }
+
+    .smmDetails {
+        left: 7%;
+        bottom: 20.5%;
+    }
+
+    .designDetails {
+        right: 7%;
+        bottom: 26%;
+    }
+
+    .details-container {
+        text-align: left;
+        position: absolute;
+        width: 50%;
+        background-color: #e2a724;
+        border-radius: 8px; 
+        padding: 8px 15px;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .show-content {
+        opacity:  1;   
+    }
 }
 
 
@@ -442,6 +558,9 @@ p {
         bottom: 20%;
         width: 35%;
     }
+
+/*    .scaledown { transition: all .2s ease-in-out; }
+    .scaledown:hover { transform: scale(1.1); }*/
 
     .details-container {
         text-align: left;
