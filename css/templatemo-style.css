@@ -11,7 +11,7 @@ body {
 	font-size: 24px;
 	font-weight: 300;
 	overflow-x: hidden;
-	background-color: #ffbd29;
+	background-color: #000;
 }
 
 a, button {
@@ -38,12 +38,12 @@ h1 {
 }
 
 p {
-	color: #FFFFFF;	
+	color: #000;	
 }
 
 .test {
     width: 50%;
-    /*z-index: 20;*/
+    z-index: 20;
     margin: auto;
     position: absolute;
     left: 25%;
@@ -166,7 +166,7 @@ p {
 }
 
 .logo {
-    width: 200px;
+    width: 165px;
     margin: auto;
     border-radius: 5px;
 }
