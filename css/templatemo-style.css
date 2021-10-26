@@ -47,7 +47,7 @@ p {
     margin: auto;
     position: absolute;
     left: 25%;
-    top: 1.5%;
+    top: 27px;
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ p {
 }
 
 .service-details {
-    font-size: 15px;
+    font-size: 14px;
     opacity: 1;
 }
 
