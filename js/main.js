@@ -12,7 +12,7 @@ $(document).ready(function () {
               $('.icon1').removeClass('scaleDown');
               $('.icon1').addClass('floating2');
             }, 300)
-      }, 7500);
+      }, 8500);
   });
 
     $('.icon2').hover(function (e) {
@@ -28,7 +28,7 @@ $(document).ready(function () {
               $('.icon2').removeClass('scaleDown');
               $('.icon2').addClass('floating');
             }, 300)            
-      }, 7500);
+      }, 8500);
   });
 
     $('.icon3').hover(function (e) {
@@ -44,7 +44,7 @@ $(document).ready(function () {
               $('.icon3').removeClass('scaleDown');
               $('.icon3').addClass('floating2');
             }, 300)            
-      }, 7500);
+      }, 8500);
   });
 
     $('.icon4').hover(function (e) {
@@ -60,7 +60,7 @@ $(document).ready(function () {
               $('.icon4').removeClass('scaleDown');
               $('.icon4').addClass('floating');
             }, 300)            
-      }, 7500);
+      }, 8500);
   });
 
   //   $('.icon1').mouseout(function (e) {
