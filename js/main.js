@@ -1,4 +1,109 @@
 $(document).ready(function () {
+
+  let window_size = window.matchMedia('(max-width: 768px)');
+    
+
+// Do functionality on screens smaller than 768px
+    if (window.matchMedia('(max-width: 768px)').matches)
+    {
+      console.log('Mobile view');
+        $('.icon1').hover(function (e) {
+            e.preventDefault();
+            $('.appDetails').addClass('show-content');
+            
+            $('.webDetails').removeClass('show-content');
+            $('.smmDetails').removeClass('show-content');
+            $('.designDetails').removeClass('show-content');
+            $('.icon2').removeClass('iconwidth');
+            $('.icon3').removeClass('iconwidth');
+            $('.icon4').removeClass('iconwidth');
+
+            $('.icon1').removeClass('floating2');
+            $('.icon1').addClass('scaleDown');
+            $('.icon1').addClass('iconwidth');
+            setTimeout(function(){
+                  $('.appDetails').removeClass('show-content');
+                  $('.icon1').removeClass('iconwidth');
+                  setTimeout(function(){
+                    $('.icon1').removeClass('scaleDown');
+                    $('.icon1').addClass('floating2');
+                  }, 300)
+            }, 8500);
+        });
+
+          $('.icon2').hover(function (e) {
+            e.preventDefault();
+            $('.webDetails').addClass('show-content');
+
+            $('.appDetails').removeClass('show-content');
+            $('.smmDetails').removeClass('show-content');
+            $('.designDetails').removeClass('show-content');
+            $('.icon1').removeClass('iconwidth');
+            $('.icon3').removeClass('iconwidth');
+            $('.icon4').removeClass('iconwidth');            
+
+            $('.icon2').removeClass('floating');
+            $('.icon2').addClass('scaleDown');
+            $('.icon2').addClass('iconwidth');
+            setTimeout(function(){
+                  $('.webDetails').removeClass('show-content');
+                  $('.icon2').removeClass('iconwidth');
+                  setTimeout(function(){
+                    $('.icon2').removeClass('scaleDown');
+                    $('.icon2').addClass('floating');
+                  }, 300)            
+            }, 8500);
+        });
+
+          $('.icon3').hover(function (e) {
+            e.preventDefault();
+            $('.smmDetails').addClass('show-content');
+
+            $('.appDetails').removeClass('show-content');
+            $('.webDetails').removeClass('show-content');
+            $('.designDetails').removeClass('show-content');
+            $('.icon2').removeClass('iconwidth');
+            $('.icon1').removeClass('iconwidth');
+            $('.icon4').removeClass('iconwidth');            
+
+            $('.icon3').removeClass('floating2');
+            $('.icon3').addClass('scaleDown');
+            $('.icon3').addClass('iconwidth');
+            setTimeout(function(){
+                  $('.smmDetails').removeClass('show-content');
+                  $('.icon3').removeClass('iconwidth');
+                  setTimeout(function(){
+                    $('.icon3').removeClass('scaleDown');
+                    $('.icon3').addClass('floating2');
+                  }, 300)            
+            }, 8500);
+        });
+
+          $('.icon4').hover(function (e) {
+            e.preventDefault();
+            $('.designDetails').addClass('show-content');
+
+            $('.appDetails').removeClass('show-content');
+            $('.webDetails').removeClass('show-content');
+            $('.smmDetails').removeClass('show-content');
+            $('.icon2').removeClass('iconwidth');
+            $('.icon3').removeClass('iconwidth');
+            $('.icon1').removeClass('iconwidth');
+
+            $('.icon4').removeClass('floating');
+            $('.icon4').addClass('scaleDown');
+            $('.icon4').addClass('iconwidth');
+            setTimeout(function(){
+                  $('.designDetails').removeClass('show-content');
+                  $('.icon4').removeClass('iconwidth');
+                  setTimeout(function(){
+                    $('.icon4').removeClass('scaleDown');
+                    $('.icon4').addClass('floating');
+                  }, 300)            
+            }, 8500);
+        });
+    }
+
   $('.icon1').hover(function (e) {
       e.preventDefault();
       $('.appDetails').addClass('show-content');
